@@ -72,7 +72,7 @@ def login(username, pwd, cookie_file):
     """"
         Login with use name, password and cookies.
         (1) If cookie file exists then try to load cookies;
-        (2) If no cookies found then do login
+        (2) #If no cookies found then do login
     """
     #If cookie file exists then try to load cookies
     if os.path.exists(cookie_file):
